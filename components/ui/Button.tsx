@@ -1,7 +1,6 @@
 'use client';
 import clsx from "clsx";
 import { ReactNode } from "react";
-import { Fimenu } from 'react-icons/fi'
 
 interface buttonProps {
   type?: "button" | "submit" | "reset"
