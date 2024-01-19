@@ -7,7 +7,7 @@ import { useState } from "react"
 import { todoType } from "@/types/todoTypes"
 import { BiEdit } from "react-icons/bi"
 
-const EditTodo = ({ todo }: todoType) => {
+const EditTodo = ({ todo }: { todo: todoType }) => {
   const [editTodo, setEditTodo] = useState(false)
 
   const handleEdit = () => {
