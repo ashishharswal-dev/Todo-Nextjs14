@@ -7,7 +7,7 @@ import { todoType } from "@/types/todoTypes"
 import { BsFillTrashFill } from "react-icons/bs"
 
 
-const DeleteTodo = ({ todo }: todoType) => {
+const DeleteTodo = ({ todo }: { todo: todoType }) => {
   return (
     <Form action={deleteTodo}>
       <Input type="hidden" name="inputId" value={todo.id}
